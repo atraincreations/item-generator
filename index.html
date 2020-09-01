@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARPG Item Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="enemy.css">
+</head>
+<body>
+    <!--Controls-->
+    <div class="nav">
+        <button onclick="pickItem()" class="wpn-btn">Draw Weapon</button>
+        <button onclick="" class="enemy-btn">Spawn Enemy</button>
+    </div class="nav">
+    <div class="card-table">
+        <!--Character Card-->
+        <div class="character-card">
+            <div class="name-box">
+                <input type="text" placeholder="Enter Player Name" class="name-input">
+            </div>
+            <div class="health-box">
+                <p class="health-bar-text">Health: </p>
+                <div id="health-bar" class="health-bar">
+                    <div class="health-meter">
+                        <p class="health-amount-text" id="health-amount-text">loading health...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="item-container" class="item-container">
+                <h4 id="name-text">loading</h4>
+                <p id="damage-text">loading</p>
+                <p id="modifier-text">loading</p>
+            </div>
+            <div class="stat-box">
+                <p id="str-text">Strength:</p>
+                <p id="stam-text">Stamina:</p>
+
+            </div>
+            <div class="exp-container">
+                <p class="exp-bar-text">exp: </p>
+                <div id="exp-bar" class="exp-bar">
+                    <div class="exp-meter"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Enemy Card-->
+        <div class="enemy-card">
+            <div class="enemy-name-box">
+                <h1 class="enemy-name-text" id="enemy-name-text">Enemy Name</h1>
+            </div>
+            <div class="enemy-health-box">
+                <p class="enemy-health-bar-text">Health: </p>
+                <div id="enemy-health-bar" class="enemy-health-bar">
+                    <div class="enemy-health-meter">
+                        <p class="enemy-health-amount-text" id="enemy-health-amount-text">loading health...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="enemy-item-container" class="enemy-item-container">
+                <h4 id="enemy-name-text">loading</h4>
+                <p id="enemy-damage-text">loading</p>
+                <p id="enemy-modifier-text">loading</p>
+            </div>
+            <div class="enemy-stat-box">
+                <p id="enemy-str-text">Strength:</p>
+                <p id="enemy-stam-text">Stamina:</p>
+
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

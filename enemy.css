@@ -1,0 +1,64 @@
+.enemy-card {
+    grid-column: 2/3;
+    margin: auto;
+    max-width: 400px;
+    min-width: 300px;
+    width: 40vw;
+    height: 50vh;
+    border: 2px solid darkgray;
+    border-radius: 8px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.enemy-item-container {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 33vw;
+    height: 10vh;
+    padding: 2vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.enemy-health-box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.enemy-health-bar-text {
+    margin-bottom: 0;
+    padding-right: 1vw;
+}
+
+.enemy-health-bar {
+    width: 40%;
+    height: 15px;
+    border: 2px solid black;
+}
+
+.enemy-health-meter {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.enemy-health-amount-text {
+    font-size: .65em;
+    text-align: center;
+}
+
+.enemy-stat-box {
+    margin: auto;
+    max-width: 300px;
+    width: 33vw;
+    height: 22vh;
+    background-color: darkgrey;
+}
